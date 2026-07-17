@@ -1,6 +1,6 @@
 # Portafolio de Programación Estructurada (Lenguaje C)
 
-Este repositorio contiene mis proyectos destacados desarrollados durante la materia de Programación Estructurada. El objetivo de estos sistemas es demostrar el dominio de la lógica de programación, manejo de memoria, y arquitectura de software en C.
+Soy Ángel Santiago Novelo Uc, actual estudiante de Ingeniería en Software en la UADY. Este repositorio contiene mis proyectos destacados desarrollados durante la materia de Programación Estructurada. El objetivo de estos sistemas es demostrar el dominio de la lógica de programación, manejo de memoria, y arquitectura de software en C.
 
 ## 📓 Proyecto 1: My Daily Note (Diario Inteligente con Análisis de Riesgo)
 Un sistema de registro personal que analiza las entradas de texto del usuario para detectar indicadores de riesgo psicológico o violencia.
@@ -13,14 +13,19 @@ Un sistema de registro personal que analiza las entradas de texto del usuario pa
   * **Lógica Condicional:** Evaluación de riesgo adaptativa basada en el rango de edad del usuario (niños vs. adolescentes).
 
 ## ✈️ Proyecto 2: Gestor de Aeropuerto (Sistema CRUD Modular)
-Un sistema de gestión operativa para el control de pistas y estados de vuelos del Aeropuerto de Mérida.
-* **Equipo de Desarrollo:** Santiago y Leonardo.
+Un sistema de gestión que simula el control aéreo de un aeropuerto para facilitar la administración de vuelos diarios de forma rápida y eficaz. Este proyecto fue desarrollado como la fase final para la asignatura de Programación Estructurada de la Licenciatura en Ingeniería de Software en la Facultad de Matemáticas de la Universidad Autónoma de Yucatán.
 
-* **Características técnicas destacadas:**
-  * **Arquitectura Modular:** Separación de responsabilidades mediante archivos de cabecera (`.h`) y múltiples archivos fuente (`.c`), facilitando el mantenimiento y la escalabilidad del código.
-  * **Estructuras de Datos:** Modelado de entidades complejas utilizando `structs` y arreglos paralelos para la relación entre Vuelos y Pistas.
-  * **Operaciones CRUD:** Implementación completa de un ciclo de vida de datos (Registro, Consulta, Modificación y Cancelación).
-  * **Reglas de Negocio:** Validación estricta en el cambio de estados de vuelo (Programado, Abordando, Despegando, Aterrizado, Retrasado) previniendo flujos de error en el sistema.
+* **Equipo de Desarrollo:** Ángel Santiago Novelo Uc (50%) y Leonardo Ariel San Martín López (50%).
+
+* **Características técnicas y funcionalidades destacadas:**
+  * **Arquitectura Modular:** El sistema está construido bajo un enfoque de programación estructurada y diseño modular. Se divide estratégicamente en 6 módulos principales: Menú (1.0), Estadísticas (2.0), Registrar Vuelos (3.0), Actualizar vuelo (4.0), Cancelar vuelos (5.0) y Ver vuelos (6.0).
+  * **Operaciones CRUD:** 
+    * **Altas (Create):** Permite registrar nuevos vuelos solicitando número de vuelo, aerolínea, tipo (llegada o salida) y hora programada.
+    * **Consultas (Read):** Despliega una tabla ordenada con todos los vuelos registrados y permite buscar la información de un vuelo en específico mediante su número.
+    * **Modificaciones (Update):** El operador puede actualizar el estado de un vuelo (ej. cambiarlo a "Retrasado") o asignarle una pista de aterrizaje.
+    * **Bajas (Delete):** Se pueden eliminar vuelos del sistema en caso de ser cancelados o haber concluido su ruta.
+  * **Módulo de Estadísticas:** Realiza cálculos matemáticos con los datos guardados para mostrar el porcentaje de vuelos abordando, programados, despegando o con retrasos, ayudando a aligerar la saturación del aeropuerto.
+  * **Validación mediante Pruebas de Caja Negra:** El sistema superó múltiples casos de prueba documentados para evaluar las salidas esperadas, incluyendo la prevención de identificadores duplicados y la confirmación de transiciones correctas en la máquina de estados de los vuelos.
 
 ---
-*Proyectos desarrollados colaborativamente como parte de la formación en Ingeniería de Software en la UADY.*
+*Proyectos desarrollados colaborativamente como parte de la formación académica en la UADY.*
